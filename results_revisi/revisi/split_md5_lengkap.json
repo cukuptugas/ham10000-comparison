@@ -1,0 +1,20 @@
+{
+  "train": {
+    "n_images": 6981,
+    "n_lesions": 5229,
+    "md5_image_ids": "cc70e78ab3299df51762a4b4ee00f606",
+    "md5_lesion_ids": "4096220561879ff54b546a0a28ec2387"
+  },
+  "val": {
+    "n_images": 1532,
+    "n_lesions": 1120,
+    "md5_image_ids": "44966b17d4f55ac99b12430b5e388d2b",
+    "md5_lesion_ids": "e7eeec7f22a23e55b9d03d3e87d7aded"
+  },
+  "test": {
+    "n_images": 1502,
+    "n_lesions": 1121,
+    "md5_image_ids": "c117f6e880c59f2f348276689b35a127",
+    "md5_lesion_ids": "a57f1d057d33b3bf66ce5f06ce55fa41"
+  }
+}
