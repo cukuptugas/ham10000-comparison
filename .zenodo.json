@@ -1,1 +1,14 @@
-
+{
+  "title": "Code and data for: Lesion-Level Equivalence and Data Leakage Analysis of ResNet50, EfficientNetB0, and VGG16 for Multiclass Skin Lesion Classification",
+  "description": "Training and analysis code, lesion-level split identifiers with MD5 fingerprints, per-image test predictions, and statistical outputs accompanying the manuscript submitted to the Journal of Information Systems and Informatics.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Venus, Yosefina", "affiliation": "Universitas Dinamika Bangsa, Jambi, Indonesia"},
+    {"name": "Fachruddin", "affiliation": "Universitas Dinamika Bangsa, Jambi, Indonesia"},
+    {"name": "Jasmir", "affiliation": "Universitas Dinamika Bangsa, Jambi, Indonesia"},
+    {"name": "Sikka, Xaverius", "affiliation": "Universitas Dinamika Bangsa, Jambi, Indonesia"},
+    {"name": "Rosario, Maria", "affiliation": "Universitas Dinamika Bangsa, Jambi, Indonesia"}
+  ],
+  "keywords": ["HAM10000", "skin lesion classification", "data leakage", "equivalence testing", "McNemar test"]
+}
