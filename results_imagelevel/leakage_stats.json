@@ -1,0 +1,7 @@
+{
+  "test_images_with_lesion_in_train_pct": 36.12774451097805,
+  "test_lesions_also_in_train_pct": 35.82925122463261,
+  "n_train": 7010,
+  "n_val": 1502,
+  "n_test": 1503
+}

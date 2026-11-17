@@ -1,0 +1,16 @@
+model,kelas_aktual,diprediksi_sebagai,jumlah
+ResNet50,nv,mel,146
+ResNet50,nv,bkl,85
+ResNet50,mel,bkl,28
+ResNet50,bkl,mel,23
+ResNet50,mel,nv,20
+EfficientNetB0,nv,mel,126
+EfficientNetB0,nv,bkl,66
+EfficientNetB0,bkl,mel,29
+EfficientNetB0,mel,bkl,28
+EfficientNetB0,mel,nv,28
+VGG16,nv,mel,157
+VGG16,nv,bkl,58
+VGG16,nv,df,32
+VGG16,mel,nv,29
+VGG16,bkl,mel,27

@@ -1,0 +1,4 @@
+pasangan,n_keduanya_benar,n_ResNet50_benar_EfficientNetB0_salah,n_ResNet50_salah_EfficientNetB0_benar,n_keduanya_salah,statistic,p_value,signifikan (p<0.05),n_ResNet50_benar_VGG16_salah,n_ResNet50_salah_VGG16_benar,n_EfficientNetB0_benar_VGG16_salah,n_EfficientNetB0_salah_VGG16_benar
+ResNet50 vs EfficientNetB0,894,162.0,164.0,282,0.003067484662576687,0.9558318433019074,False,,,,
+ResNet50 vs VGG16,923,,,308,0.05904059040590406,0.8080188026382749,False,133.0,138.0,,
+EfficientNetB0 vs VGG16,890,,,273,0.011799410029498525,0.9134998601027751,False,,,168.0,171.0

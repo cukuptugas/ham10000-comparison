@@ -1,0 +1,5 @@
+Skema/subset,Balanced_accuracy,Akurasi_terstandardisasi_kelas
+Lesion-level (penelitian ini),0.6219002536429297,
+Image-level: seluruh test,0.6323323582933866,
+Image-level: BOCOR,0.6252066396828168,0.5014070273614858
+Image-level: BERSIH,0.6031969713951059,0.7252077639741328

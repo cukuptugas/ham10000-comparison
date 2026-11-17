@@ -1,0 +1,11 @@
+Sumber,Model,Akurasi,AUC-ROC (macro),Skema Split,Catatan
+Penelitian ini,ResNet50,0.7031,0.9353,"Stratified 70:15:15, level lesion_id (mencegah data leakage)",
+Penelitian ini,EfficientNetB0,0.7044,0.9233,"Stratified 70:15:15, level lesion_id (mencegah data leakage)",
+Penelitian ini,VGG16,0.7064,0.9376,"Stratified 70:15:15, level lesion_id (mencegah data leakage)",
+Nugroho et al. (2020) - arXiv:2009.05977,ResNet50 (dgn focal loss + class-weighted),0.93,,Tidak disebutkan eksplisit (kemungkinan besar image-level),"ResNet50 unggul dibanding VGG16, MobileNet, EfficientNetB1 pada studi ini; teknik class-weighted mirip penelitian ini"
+"SkinCancerNet, IIETA (Trans. Sci.)",VGG16 (VGGNet16),0.9328,,Tidak disebutkan eksplisit,"Arsitektur tunggal, transfer learning dari ImageNet"
+"SkinCancerNet, IIETA (Trans. Sci.)",ResNet50,0.871,,Tidak disebutkan eksplisit,"Arsitektur tunggal, transfer learning dari ImageNet"
+Bechelli & Delhommelle (dikutip dlm review PMC10252190),VGG16,0.7,,Tidak disebutkan eksplisit,"PENTING: performa deep learning pada HAM10000 dilaporkan rendah pada studi ini - akurasi VGG16 (model terbaik mereka) SANGAT DEKAT dengan ResNet50 penelitian ini (0.70 vs hasil Anda). Memperkuat argumen bahwa hasil penelitian ini realistis, bukan anomali."
+Garg et al. (dikutip dlm review arXiv:2401.04746),ResNet50,0.9051,,Tidak disebutkan eksplisit,"VGG16 & ResNet50 sbg feature extractor + meta-learner (Random Forest, XGBoost, SVM)"
+Ismail et al. (dikutip dlm review arXiv:2401.04746),ResNet50+VGG16+DenseNet (stacking),0.8401,,Tidak disebutkan eksplisit,"Model gabungan (stacking 3 arsitektur) - bukan perbandingan arsitektur tunggal, tidak apple-to-apple"
+"Krishna et al. - BILSK, ScienceDirect (2021)",Bilinear ResNet50+VGG16,0.9321,0.981,Tidak disebutkan eksplisit,"Model gabungan (bilinear CNN) - bukan arsitektur tunggal, tidak apple-to-apple. Waktu training 238.6 menit"
