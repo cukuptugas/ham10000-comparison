@@ -9,7 +9,12 @@ Code and analysis outputs accompanying the paper by Yosefina Venus, Fachruddin, 
 |---|---|
 | `Tesis2_training.ipynb` | Data loading, lesion-level split, two-stage transfer learning of ResNet50, EfficientNetB0 and VGG16, evaluation, McNemar test, error analysis |
 | `Revisi_Reviewer.ipynb` | Additional analyses: per-image predictions as a single source of truth, verified McNemar contingency tables, Newcombe and lesion-level bootstrap 95% CIs, TOST equivalence test, Holm correction, lesion-level permutation test, and the lesion-level vs image-level leakage experiment |
-| `results/` | Split fingerprints (MD5), image/lesion identifiers per split, per-image test predictions and class probabilities, and statistical outputs |
+| `results_revisi/revisi/` | **Main outputs reported in the paper**: split identifiers and MD5 fingerprints, per-image test predictions and class probabilities, verified performance table, McNemar/CI/TOST results, leakage audit and leakage experiment |
+| `results/` | Per-model training histories and test results from the training notebook |
+| `results_analisis_lanjutan/analisis_lanjutan/` | Initial McNemar test, most frequent confusion pairs, and misclassification examples |
+| `results_imagelevel/` | Lesion-overlap statistics of the image-level comparator split |
+| `figures/` | Class distribution, training curves, confusion matrices, model comparison |
+| `gradcam/` | Grad-CAM maps of the most frequent misclassifications (derived from HAM10000 images, CC BY-NC-SA 4.0) |
 | `requirements.txt` | Python packages used |
 
 ## Dataset
@@ -26,7 +31,7 @@ automatically from Kaggle (`kmader/skin-cancer-mnist-ham10000`) inside the noteb
 
 The split is performed at the **lesion level** (70/15/15, stratified by diagnosis, `random_state=42`),
 so that all images of the same lesion fall into the same subset. The MD5 fingerprint of the sorted
-image IDs of each subset is stored in `results/split_fingerprint.json`; the notebooks stop with an
+image IDs of each subset is stored in `results_revisi/revisi/split_fingerprint.json` and `split_md5_lengkap.json`; the notebooks stop with an
 error if a re-run produces a different split.
 
 ## How to run
